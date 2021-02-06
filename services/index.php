@@ -1,11 +1,15 @@
 <?php
 $ds = DIRECTORY_SEPARATOR;
-include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'header.php');
+if (file_exists('../theme/header.php')) {
+    include_once '../theme/header.php';
+} else {
+    include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'header.php');
+}
 ?>
 
 <section class="page">
     <!-- ***** Page Top Start ***** -->
-    <div class="cover" data-image="assets/images/photos/parallax-counter.jpg">
+    <div class="cover" data-image="/assets/images/photos/parallax-counter.jpg">
         <div class="page-top">
             <div class="container">
                 <div class="row">
@@ -136,7 +140,7 @@ include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'header.php');
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                <img src="assets/images/photos/features/blue-2.png" class="img-fluid d-block mx-auto" alt="App">
+                <img src="/assets/images/photos/features/blue-2.png" class="img-fluid d-block mx-auto" alt="App">
             </div>
             <div class="col-lg-1"></div>
             <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
@@ -203,5 +207,9 @@ include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'header.php');
 <!-- ***** Features Big Item End ***** -->
 
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'footer.php');
+if (file_exists('../theme/footer.php')) {
+    include_once '../theme/footer.php';
+} else {
+    include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'footer.php');
+}
 ?>

@@ -43,12 +43,12 @@ switch ($page) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $title; ?> > Fathi-Tech Solutions | PVT LTD</title>
-    <meta name="description" content="Fathi-Tech Solutions | PVT LTD" />
+    <meta name="description" content="Fathi-Tech Solutions" />
     <meta name="keywords" content="fathi-tech, it solutions, website, web applications, mobile app, android, ios" />
     <meta name="author" content="Syd Fathi Al Hussaini" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/favicon/favicon.ico" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon.ico" />
 
     <!-- Bootstrap & Plugins CSS -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">

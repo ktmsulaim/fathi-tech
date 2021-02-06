@@ -1,11 +1,15 @@
 <?php
 $ds = DIRECTORY_SEPARATOR;
-include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'header.php');
+if (file_exists('../theme/header.php')) {
+	include_once '../theme/header.php';
+} else {
+	include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'header.php');
+}
 ?>
 
 <section class="page">
 	<!-- ***** Page Top Start ***** -->
-	<div class="cover" data-image="assets/images/photos/parallax-counter.jpg">
+	<div class="cover" data-image="/assets/images/photos/parallax-counter.jpg">
 		<div class="page-top">
 			<div class="container">
 				<div class="row">
@@ -36,7 +40,7 @@ include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'header.php');
 						<p>Proin pellentesque quam at quam aliquet, eget mattis quam euismod. Curabitur imperdiet suscipit facilisis. Maecenas diam quam, sodales eu est eu, posuere ultricies augue. </p>
 						<p>Sed rhoncus facilisis risus, nec sagittis dui luctus in. Nunc eget ante odio. Suspendisse eu diam ut nisi ullamcorper interdum. Pellentesque sit amet quam risus. In a augue aliquam, venenatis tortor in, placerat purus. Donec rhoncus nisi sit amet convallis tempor. </p>
 
-						<img src="assets/images/photos/about/3.jpg" class="img-fluid margin-bottom-30" alt="">
+						<img src="/assets/images/services/cloud.jpg" class="img-fluid margin-bottom-30" alt="">
 
 						<p>Sed rhoncus facilisis risus, nec sagittis dui luctus in. Nunc eget ante odio. Suspendisse eu diam ut nisi ullamcorper interdum. Pellentesque sit amet quam risus. In a augue aliquam, venenatis tortor in, placerat purus. Donec rhoncus nisi sit amet convallis tempor. </p>
 
@@ -73,5 +77,9 @@ include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'header.php');
 </section>
 
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'footer.php');
+if (file_exists('../theme/footer.php')) {
+	include_once '../theme/footer.php';
+} else {
+	include($_SERVER['DOCUMENT_ROOT'] . 'theme' . $ds . 'footer.php');
+}
 ?>
