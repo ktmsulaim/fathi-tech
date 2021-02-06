@@ -1,6 +1,37 @@
 <?php
 $ds = DIRECTORY_SEPARATOR;
 $title = 'Home';
+$page = $_SERVER['REQUEST_URI'];
+
+switch ($page) {
+    case '/about':
+        $title = 'About US';
+        break;
+    case '/services/':
+        $title = 'Services';
+        break;
+    case '/team':
+        $title = 'Team';
+        break;
+    case '/contact':
+        $title = 'Contact US';
+        break;
+    case '/services/cloud-solutions':
+        $title = 'Cloud Solutions';
+        break;
+    case '/services/language-services':
+        $title = 'Language Services';
+        break;
+    case '/services/professional-courses':
+        $title = 'Professional Courses';
+        break;
+    case '/services/software-solutions':
+        $title = 'Software Solutions';
+        break;
+    default:
+        $page = 'Untitled';
+        break;
+}
 
 ?>
 
