@@ -1,0 +1,12 @@
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} ferox\.ae [NC]
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://ferox.ae/$1 [R,L]
+
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+RewriteRule ^(.+)\.php$ /$1 [R,L]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ /$1.php [NC,END]
