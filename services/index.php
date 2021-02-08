@@ -50,11 +50,11 @@ if (file_exists('../theme/header.php')) {
 
                 <!-- ***** Features Small Item Start ***** -->
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <a href="/services/professional-courses" class="features-small-item">
+                    <a href="/services/fathi-tech-academy" class="features-small-item">
                         <div class="icon">
                             <i class="fa fa-graduation-cap"></i>
                         </div>
-                        <h5 class="features-title">Professional Courses</h5>
+                        <h5 class="features-title">Fathi-Tech Academy</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div class="next">
                             <i class="fa fa-angle-right"></i>

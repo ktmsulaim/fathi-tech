@@ -57,10 +57,10 @@ if (file_exists('../theme/header.php')) {
 							<?php include_once './side_nav.php'; ?>
 
 							<div class="box">
-								<img src="assets/images/photos/about/1.jpg" alt="">
+								<img src="/assets/images/photos/about/1.jpg" alt="">
 								<div class="hovered align-self-center">
 									<p>You can contact us for purchase, installation and customizations. </p>
-									<a href="#" class="btn-white-line">Contact Us</a>
+									<a href="/contact" class="btn-white-line">Contact Us</a>
 								</div>
 							</div>
 						</div>

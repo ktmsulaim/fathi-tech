@@ -19,7 +19,7 @@ include_once './theme/header.php';
 				<div class="col-lg-5 col-md-12 col-sm-12">
 					<h1>Industry Leading Managed SaaS and software <span>Solutions</span></h1>
 					<p>Proven methods to capture business priorities and goals as well as current pain points that enables measurable business outcomes.</p>
-					<a href="#" class="btn-primary-line">LEARN MORE</a>
+					<a href="/about" class="btn-primary-line">LEARN MORE</a>
 				</div>
 			</div>
 		</div>
@@ -61,11 +61,11 @@ include_once './theme/header.php';
 
 					<!-- ***** Features Small Item Start ***** -->
 					<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-						<a href="/services/professional-courses" class="features-small-item">
+						<a href="/services/fathi-tech-academy" class="features-small-item">
 							<div class="icon">
 								<i class="fa fa-graduation-cap"></i>
 							</div>
-							<h5 class="features-title">Professional Courses</h5>
+							<h5 class="features-title">Fathi-Tech Academy</h5>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 							<div class="next">
 								<i class="fa fa-angle-right"></i>
@@ -117,10 +117,10 @@ include_once './theme/header.php';
 		<div class="row">
 			<div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
 				<div class="left-heading">
-					<h2 class="section-title">Professional Courses</h2>
+					<h2 class="section-title">Fathi-Tech Academy</h2>
 				</div>
 				<div class="left-text">
-					<p><b>Fathi-tech Academy</b> velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel.</p>
+					<p>velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel.</p>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<a class="btn-home active" href="#">
