@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from demo.tempload.com/alya/blue-faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Feb 2021 09:36:38 GMT -->
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
