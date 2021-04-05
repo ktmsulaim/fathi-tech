@@ -77,7 +77,7 @@ switch ($page) {
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
+                        <a href="/" class="logo">
                             <img src="/assets/images/logo.png" height="50" alt="LOGO" />
                         </a>
                         <!-- ***** Logo End ***** -->
