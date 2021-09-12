@@ -34,7 +34,7 @@
 							<li><a href="#"><i class="fa fa-github"></i></a></li>
 						</ul> -->
 						<div class="user-image">
-							<img src="assets/images/photos/team/2.JPG" alt="">
+							<img src="assets/images/photos/team/2.jpg" alt="">
 						</div>
 						<div class="team-info">
 							<h3 class="user-name">Engr. K.T Mohammed Sulaim</h3>
