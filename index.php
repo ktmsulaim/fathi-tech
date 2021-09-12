@@ -51,7 +51,7 @@ include_once './theme/header.php';
 								<i class="fa fa-laptop"></i>
 							</div>
 							<h5 class="features-title">Software Solutions</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<p>Coming soon!</p>
 							<div class="next">
 								<i class="fa fa-angle-right"></i>
 							</div>
@@ -66,7 +66,7 @@ include_once './theme/header.php';
 								<i class="fa fa-graduation-cap"></i>
 							</div>
 							<h5 class="features-title">Fathi-Tech Academy</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<p>Coming soon!</p>
 							<div class="next">
 								<i class="fa fa-angle-right"></i>
 							</div>
@@ -81,7 +81,7 @@ include_once './theme/header.php';
 								<i class="fa fa-cloud"></i>
 							</div>
 							<h5 class="features-title">Cloud Solutions</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<p>Coming soon!</p>
 							<div class="next">
 								<i class="fa fa-angle-right"></i>
 							</div>
@@ -96,7 +96,7 @@ include_once './theme/header.php';
 								<i class="fa fa-language"></i>
 							</div>
 							<h5 class="features-title">Language Services</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<p>Coming soon!</p>
 							<div class="next">
 								<i class="fa fa-angle-right"></i>
 							</div>
@@ -120,7 +120,7 @@ include_once './theme/header.php';
 					<h2 class="section-title">Fathi-Tech Academy</h2>
 				</div>
 				<div class="left-text">
-					<p>velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel.</p>
+					<p>Coming soon!</p>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<a class="btn-home active" href="#">
@@ -196,7 +196,7 @@ include_once './theme/header.php';
 					<h2 class="section-title">Design & Development</h2>
 				</div>
 				<div class="left-text">
-					<p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel.</p>
+					<p>Coming soon!</p>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<a class="btn-home active" href="#">
