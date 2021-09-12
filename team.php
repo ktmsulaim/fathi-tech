@@ -30,68 +30,7 @@ include_once './theme/header.php';
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="about">
-						<div class="row">
-							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-								<div class="team-item">
-									<div class="team-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-										<ul class="social">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											<li><a href="#"><i class="fa fa-github"></i></a></li>
-										</ul>
-										<div class="user-image">
-											<img src="assets/images/photos/team/user.png" alt="">
-										</div>
-										<div class="team-info">
-											<h3 class="user-name">Person 1</h3>
-											<span>Position</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-								<div class="team-item">
-									<div class="team-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-										<ul class="social">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											<li><a href="#"><i class="fa fa-github"></i></a></li>
-										</ul>
-										<div class="user-image">
-											<img src="assets/images/photos/team/user.png" alt="">
-										</div>
-										<div class="team-info">
-											<h3 class="user-name">Person 2</h3>
-											<span>Position</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-								<div class="team-item">
-									<div class="team-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-										<ul class="social">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											<li><a href="#"><i class="fa fa-github"></i></a></li>
-										</ul>
-										<div class="user-image">
-											<img src="assets/images/photos/team/user.png" alt="">
-										</div>
-										<div class="team-info">
-											<h3 class="user-name">Person 3</h3>
-											<span>Position</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<?php include_once './components/teams.php'; ?>
 					</div>
 				</div>
 			</div>

@@ -41,7 +41,7 @@ if (file_exists('../theme/header.php')) {
 						<div class="card margin-bottom-30 border-0 shadow-sm">
 							<div class="card-body">
 								<img src="/assets/images/services/language.jpg" class="img-fluid" alt="">
-								<p class="text-center">Proof reading and language translation services</p>
+								<p class="text-center">We provide proofreading services for universities and institutions, translation services to different languages including Arabic, English, French, German, Turkish and more…!</p>
 							</div>
 						</div>
 

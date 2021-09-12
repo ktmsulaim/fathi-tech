@@ -4,38 +4,38 @@
         <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12">
                 <img src="/assets/images/logo.png" class="logo" width="80%" alt="">
-                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error qui voluptates labore molestiae ipsum, architecto exercitationem tempora sequi.</div>
+                <div class="text">Fathi-Tech Solution Limited (FATS) is a leading global provider of information technology products and services. We assist our customers to accomplish digital transformation and safeguard their business with the latest technologies.</div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                 <h5>Helpful Links</h5>
                 <ul class="footer-nav">
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>About Us</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Services</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Team</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Projects</span></a></li>
+                    <li><a href="/about"><i class="fa fa-angle-right"></i><span>About Us</span></a></li>
+                    <li><a href="/services"><i class="fa fa-angle-right"></i><span>Services</span></a></li>
+                    <li><a href="/team"><i class="fa fa-angle-right"></i><span>Team</span></a></li>
+                    <li><a href="/projects"><i class="fa fa-angle-right"></i><span>Projects</span></a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                 <h5>Support</h5>
                 <ul class="footer-nav">
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Privacy Policy</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Terms of Use</span></a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-angle-right"></i><span>Privacy Policy</span></a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-angle-right"></i><span>Terms of Use</span></a></li>
                     <li><a href="#"><i class="fa fa-angle-right"></i><span>Support Center</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Contact</span></a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-angle-right"></i><span>Contact</span></a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12">
                 <h5>Contact Us</h5>
                 <div class="address">
-                    <p>455 West Orchard Street<br>Kings Mountain, NC 28086</p>
-                    <p>Phone: (000) 000-0000</p>
-                    <p><span>E-Mail:</span><a href="#">support@yourbrand.com</a></p>
+                    <p>22 Lingu cresent wuse II Abuja Nigeria</p>
+                    <p>Phone: +2349034373868</p>
+                    <p><span>E-Mail: </span>support@fathi-tech.com</p>
                     <ul class="social">
-                        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+                        <li><a href="https://www.facebook.com/fathitechnology"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/fathitech/ "><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-linkedin-square"></i></a></li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-google-plus-square"></i></a></li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-github-square"></i></a></li>
                     </ul>
                 </div>
             </div>

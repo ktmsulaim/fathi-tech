@@ -30,7 +30,7 @@ include_once './theme/header.php';
 			<div class="row">
 				<!-- ***** Features Small Item Start ***** -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-					<a href="/software-solutions" class="features-small-item">
+					<a href="/services/software-solutions" class="features-small-item">
 						<div class="icon">
 							<i class="fa fa-laptop"></i>
 						</div>
@@ -45,7 +45,7 @@ include_once './theme/header.php';
 
 				<!-- ***** Features Small Item Start ***** -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-					<a href="/professional-courses" class="features-small-item">
+					<a href="/services/professional-courses" class="features-small-item">
 						<div class="icon">
 							<i class="fa fa-graduation-cap"></i>
 						</div>
@@ -60,7 +60,7 @@ include_once './theme/header.php';
 
 				<!-- ***** Features Small Item Start ***** -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-					<a href="/cloud-solutions" class="features-small-item">
+					<a href="/services/cloud-solutions" class="features-small-item">
 						<div class="icon">
 							<i class="fa fa-cloud"></i>
 						</div>
@@ -75,7 +75,7 @@ include_once './theme/header.php';
 
 				<!-- ***** Features Small Item Start ***** -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-					<a href="/language-services" class="features-small-item">
+					<a href="/services/language-services" class="features-small-item">
 						<div class="icon">
 							<i class="fa fa-language"></i>
 						</div>

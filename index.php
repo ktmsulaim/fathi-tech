@@ -329,32 +329,32 @@ include_once './theme/header.php';
 			<div class="col-lg-4 col-md-6 col-sm-12">
 				<div class="blog-post-thumb">
 					<div class="img">
-						<img src="assets/images/photos/blog/1.jpg" alt="">
+						<img src="assets/images/photos/projects/2.png" alt="">
 					</div>
 					<div class="blog-content">
 						<h3>
-							<a href="javascript:void(0)">Sheikh Ibrahim Saleh official website</a>
+							<a href="javascript:void(0)">Advocate for the Advancement of Youth Development NGO website</a>
 						</h3>
 						<div class="text">
-							https://sheikhibrahimsaleh.com
+							https://www.advocate4youth.org
 						</div>
-						<a href="https://sheikhibrahimsaleh.com" target="_blank" class="btn-primary-line">View</a>
+						<a href="https://www.advocate4youth.org" target="_blank" class="btn-primary-line">View</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-12">
 				<div class="blog-post-thumb">
 					<div class="img">
-						<img src="assets/images/photos/blog/1.jpg" alt="">
+						<img src="assets/images/photos/projects/3.png" alt="">
 					</div>
 					<div class="blog-content">
 						<h3>
-							<a href="javascript:void(0)">Sheikh Ibrahim Saleh official website</a>
+							<a href="javascript:void(0)">Domin-links Ltd. E-commerce website</a>
 						</h3>
 						<div class="text">
-							https://sheikhibrahimsaleh.com
+							https://www.dominlinks.net
 						</div>
-						<a href="https://sheikhibrahimsaleh.com" target="_blank" class="btn-primary-line">View</a>
+						<a href="https://www.dominlinks.net" target="_blank" class="btn-primary-line">View</a>
 					</div>
 				</div>
 			</div>
@@ -382,99 +382,7 @@ include_once './theme/header.php';
 		</div>
 		<!-- ***** Section Title End ***** -->
 
-		<div class="row">
-			<!-- ***** Team Item Start ***** -->
-			<div class="col-lg-3 col-md-6 col-sm-12">
-				<div class="team-item">
-					<div class="team-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<ul class="social">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-github"></i></a></li>
-						</ul>
-						<div class="user-image">
-							<img src="assets/images/photos/team/user.png" alt="">
-						</div>
-						<div class="team-info">
-							<h3 class="user-name">Person 1</h3>
-							<span>Position</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- ***** Team Item End ***** -->
-
-			<!-- ***** Team Item Start ***** -->
-			<div class="col-lg-3 col-md-6 col-sm-12">
-				<div class="team-item">
-					<div class="team-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<ul class="social">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-github"></i></a></li>
-						</ul>
-						<div class="user-image">
-							<img src="assets/images/photos/team/user.png" alt="">
-						</div>
-						<div class="team-info">
-							<h3 class="user-name">Person 2</h3>
-							<span>Position</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- ***** Team Item End ***** -->
-
-			<!-- ***** Team Item Start ***** -->
-			<div class="col-lg-3 col-md-6 col-sm-12">
-				<div class="team-item">
-					<div class="team-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<ul class="social">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-github"></i></a></li>
-						</ul>
-						<div class="user-image">
-							<img src="assets/images/photos/team/user.png" alt="">
-						</div>
-						<div class="team-info">
-							<h3 class="user-name">Person 3</h3>
-							<span>Position</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- ***** Team Item End ***** -->
-
-			<!-- ***** Team Item Start ***** -->
-			<div class="col-lg-3 col-md-6 col-sm-12">
-				<div class="team-item">
-					<div class="team-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<ul class="social">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-github"></i></a></li>
-						</ul>
-						<div class="user-image">
-							<img src="assets/images/photos/team/user.png" alt="">
-						</div>
-						<div class="team-info">
-							<h3 class="user-name">Person 4</h3>
-							<span>Position</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- ***** Team Item End ***** -->
-		</div>
+		<?php include_once './components/teams.php'; ?>
 	</div>
 </section>
 <!-- ***** Team End ***** -->

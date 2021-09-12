@@ -31,8 +31,7 @@ include_once './theme/header.php';
 					<div class="contact">
 						<div class="map-wrapper">
 							<!-- ***** Google Maps Start ***** -->
-							<div class="map-canvas" data-zoom="12" data-lat="-37.811085" data-lng="144.955631" data-type="roadmap" data-hue="#ffc400" data-title="Alya" data-icon-path="assets/images/marker-blue.png" data-content="455 West Orchard Street<br>Kings Mountain, NC 28086<br><br><a href='mailto:support@yourbrand.com'>mailto:support@yourbrand.com</a>">
-							</div>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126083.2512381029!2d7.324144830782781!3d9.054496592394921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e745f4cd62fd9%3A0x53bd17b4a20ea12b!2sAbuja%2C%20Nigeria!5e0!3m2!1sen!2sin!4v1631460946353!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 							<!-- ***** Google Maps End ***** -->
 						</div>
 						<div class="contact-info">
@@ -41,7 +40,7 @@ include_once './theme/header.php';
 									<div class="item">
 										<i class="fa fa-location-arrow"></i>
 										<div class="txt">
-											<span>455 West Orchard Street<br>Kings Mountain, NC 28086</span>
+											<span>22 Lingu cresent wuse<br>Abuja Nigeria</span>
 										</div>
 									</div>
 								</div>
@@ -49,7 +48,7 @@ include_once './theme/header.php';
 									<div class="item">
 										<i class="fa fa-phone"></i>
 										<div class="txt">
-											<span>(272) 211-7370<br>(524) 386-5730</span>
+											<span>+2349034373868</span>
 										</div>
 									</div>
 								</div>
@@ -57,13 +56,7 @@ include_once './theme/header.php';
 									<div class="item">
 										<i class="fa fa-envelope"></i>
 										<div class="txt">
-											<span><a href="mailto:info@yourbrand.com">info@yourbrand.com</a></span>
-										</div>
-									</div>
-									<div class="item">
-										<i class="fa fa-envelope"></i>
-										<div class="txt">
-											<span><a href="mailto:support@yourbrand.com">support@yourbrand.com</a></span>
+											<span><a href="mailto:support@fathi-tech.com">support@fathi-tech.com</a></span>
 										</div>
 									</div>
 								</div>
@@ -78,8 +71,7 @@ include_once './theme/header.php';
 							<div class="col-lg-4 col-md-6 col-sm-12">
 								<h5 class="margin-bottom-30">Get in touch</h5>
 								<div class="contact-text">
-									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam tempus magna vel turpis pharetra dictum. </p>
-									<p>Sed blandit tempus purus, sed sodales leo rutrum vel. Nam vulputate ipsum ac est congue, eget commodo magna lobortis.</p>
+									<p>Stay tuned!</p>
 								</div>
 							</div>
 							<!-- ***** Contact Text End ***** -->

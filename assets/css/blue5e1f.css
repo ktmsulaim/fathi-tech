@@ -647,6 +647,10 @@ header
   border: transparent;
   letter-spacing: 1px;
 }
+.header-area .main-nav .nav li.active a {
+  color: #03315a;
+}
+
 
 .header-area .main-nav .nav li a:hover {
   color: #6f8ba4;
@@ -1745,6 +1749,8 @@ team
   border-radius: 5px;
   position: relative;
   margin-bottom: 30px;
+  display: flex;
+  height: 100%;
 }
 
 .team-item:hover .user-image {
@@ -1845,6 +1851,12 @@ team
   margin: auto;
   font-size: 40px;
   opacity: 0.1;
+}
+
+@media (max-width: 991px) {
+  .team-item {
+    height: auto;
+  }
 }
 
 /* 

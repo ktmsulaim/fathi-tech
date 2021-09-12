@@ -13,6 +13,9 @@ switch ($page) {
     case '/team':
         $title = 'Team';
         break;
+    case '/projects':
+        $title = 'Projects';
+        break;
     case '/contact':
         $title = 'Contact US';
         break;
@@ -43,7 +46,7 @@ switch ($page) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $title; ?> > Fathi-Tech Solutions | PVT LTD</title>
-    <meta name="description" content="Fathi-Tech Solutions" />
+    <meta name="description" content="Fathi-Tech Solution Limited (FATS) is a leading global provider of information technology products and services." />
     <meta name="keywords" content="fathi-tech, it solutions, website, web applications, mobile app, android, ios" />
     <meta name="author" content="Syd Fathi Al Hussaini" />
 
@@ -85,11 +88,14 @@ switch ($page) {
 
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="active"><a href="/#welcome">Home</a></li>
-                            <li><a href="/about">About Us</a></li>
-                            <li><a href="/services">Services</a></li>
-                            <li><a href="/team">Our Team</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <?php 
+                                $current = $_SERVER['REQUEST_URI'];
+                            ?>
+                            <li <?php echo $current == '/' ? 'class="active"' : null; ?>><a href="/#welcome">Home</a></li>
+                            <li <?php echo $current == '/about' ? 'class="active"' : null; ?>><a href="/about">About Us</a></li>
+                            <li <?php echo $current == '/services' ? 'class="active"' : null; ?>><a href="/services">Services</a></li>
+                            <li <?php echo $current == '/team' ? 'class="active"' : null; ?>><a href="/team">Our Team</a></li>
+                            <li <?php echo $current == '/contact' ? 'class="active"' : null; ?>><a href="/contact">Contact</a></li>
 
                         </ul>
                         <a class="menu-trigger">

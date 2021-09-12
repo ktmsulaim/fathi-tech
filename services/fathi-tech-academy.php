@@ -37,7 +37,10 @@ if (file_exists('../theme/header.php')) {
 				<div class="col-lg-8 col-md-12 col-sm-12">
 					<div class="page-detail">
 						<div class="card border-0 margin-bottom-30 shadow-sm">
-							<img src="/assets/images/services/course.jpg" class="img-fluid margin-bottom-30" alt="">
+							<div class="card-body">
+								<img src="/assets/images/services/course.jpg" class="img-fluid margin-bottom-30" alt="">
+								<p>IT training can help you become more professional and productive. One element of the Fathi-tech Academy mission is to provide organisations with high-quality and relevant technical education programmes. As a result, Fathi-tech Academy provides a wide range of training programmes in Blockchain, Web design, Computer Engineering, and Networking to assist working professionals in improving their job efficiency and understanding of emerging technologies.</p>
+							</div>
 						</div>
 						<div class="row" id="courses">
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
